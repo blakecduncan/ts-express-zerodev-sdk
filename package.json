@@ -1,0 +1,29 @@
+{
+  "name": "ts-express-zerodev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zerodev/ecdsa-validator": "^5.1.0",
+    "@zerodev/presets": "^5.1.4",
+    "@zerodev/sdk": "^5.1.2",
+    "@zerodev/weighted-ecdsa-validator": "^5.1.0",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "permissionless": "^0.0.34",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
